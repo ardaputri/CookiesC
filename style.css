@@ -326,29 +326,4 @@
         margin-left: 13px;
         margin-top: 30px;
     }
-    @media screen and (max-width: 766px) {
-        #contact .container {
-          background: white;
-        }
-      
-        #col {
-          width: 100%;
-          background: #b2744c;
-        }
-      
-        #contact {
-          height: 150vh;
-        }
-      }
-      
-      @media screen and (max-width: 400px) {
-        #contact input {
-          width: 250px;
-        }
-      }
-
-      #card h3 {
-        text-align: left;
-        margin-left:10px;
-      }
-      
+   
