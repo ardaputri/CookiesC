@@ -97,7 +97,7 @@
 
 
 
-/about section start/
+/*about section start*/
 .container{
     position: relative;
 }
@@ -144,19 +144,13 @@
         font-size:8px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:766px){
     #about p{
         font-size:15px;
-
-@media screen and (max-width: 480px) {
-    #about p {
-        font-size: 12px;
-  }
-}
     }
 }
     
-/about section end/
+/*about section end*/
 #products {
     margin-top: 50px;
   }
@@ -165,7 +159,7 @@
 
 
 
-/top cards start/
+/*top cards start*/
 #top-cards{
     width: 100%;
    /* height: 60vh;*/
@@ -203,7 +197,7 @@
 
 
 
-/menu start/
+/*menu start*/
 #menu{
     width: 100%;
     margin-top: 60px;
@@ -241,13 +235,13 @@
     cursor: pointer;
 
 }
-/menu end/
+/*menu end*/
 
 
-/top cards end/ 
+/*top cards end*/ 
 
 .image-container img {
-    width: 200px;
+    width: 300px;
 }
 .image-container{
     display: flex;
@@ -257,7 +251,7 @@
     align-content: center;
 }
 .card2{
-    width: 300px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -357,6 +351,4 @@
         text-align: left;
         margin-left:10px;
       }
-      @media screen and (max-width: 600px){
-        height: 150vh;
-      }
+      
