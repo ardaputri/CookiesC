@@ -144,15 +144,9 @@
         font-size:8px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:766px){
     #about p{
         font-size:15px;
-
-@media screen and (max-width: 480px) {
-    #about p {
-        font-size: 12px;
-  }
-}
     }
 }
     
@@ -357,6 +351,5 @@
         text-align: left;
         margin-left:10px;
       }
-      @media screen and (max-width: 600px){
-        height: 150vh;
+      
       }
